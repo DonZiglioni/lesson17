@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useState, useEffect } from 'react'
 
+
 const HashEx = () => {
     const [showAlt, setShowAlt] = useState(false)
 
@@ -23,7 +24,7 @@ const HashEx = () => {
                     <Link className='underline' target='_blank' href={'https://www.win-rar.com/download.html?&L=0'}>
                         Win-Rar Download Page
                     </Link>
-                    <Image
+                    <img
                         src={showAlt ? '/rarimg2.png' : '/rarimg.png'}
                         alt='WinRAR checksum instructions'
                         width={500}
