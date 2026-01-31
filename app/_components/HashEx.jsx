@@ -25,7 +25,7 @@ const HashEx = () => {
                         Win-Rar Download Page
                     </Link>
                     <Image
-                        src={showAlt ? '/images/rarimg2.png' : '/images/rarimg.png'}
+                        src={showAlt ? '/images/rarimg2.PNG' : '/images/rarimg.PNG'}
                         alt='WinRAR checksum instructions'
                         width={500}
                         height={500}
