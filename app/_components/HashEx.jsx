@@ -24,8 +24,8 @@ const HashEx = () => {
                     <Link className='underline' target='_blank' href={'https://www.win-rar.com/download.html?&L=0'}>
                         Win-Rar Download Page
                     </Link>
-                    <img
-                        src={showAlt ? '/rarimg2.png' : '/rarimg.png'}
+                    <Image
+                        src={showAlt ? '/images/rarimg2.png' : '/images/rarimg.png'}
                         alt='WinRAR checksum instructions'
                         width={500}
                         height={500}
